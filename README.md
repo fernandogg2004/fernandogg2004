@@ -15,7 +15,7 @@ evaluation: temporal validation, meaningful baselines and calibrated uncertainty
 | Project | What it shows | Key evidence |
 |---|---|---|
 | [NBA-Draft-AI](https://github.com/fernandogg2004/NBA-Draft-AI) | Leakage-safe ML pipeline: walk-forward validation, locked holdout, hurdle model for survivorship bias, conformal intervals | Matches (does not beat) the draft-order baseline on a locked holdout; 80% intervals cover ~80%; 197 tests + CI |
-| [mlb-lineup-optimizer](https://github.com/fernandogg2004/mlb-lineup-optimizer) | Calibrated multiclass model feeding a Monte Carlo simulator and a genetic-algorithm optimiser; bootstrap-based backtests | PA model ECE 0.002 out of sample; game-winner prediction shown to be no better than 50/50 |
+| [MLB-lineup-optimizer](https://github.com/fernandogg2004/MLB-lineup-optimizer) | Calibrated multiclass model feeding a Monte Carlo simulator and a genetic-algorithm optimiser; bootstrap-based backtests | PA model ECE 0.002 out of sample; game-winner prediction shown to be no better than 50/50 |
 | [CrecimientoPoblacional](https://github.com/fernandogg2004/CrecimientoPoblacional) | Qualitative ODE analysis: equilibria, linearisation, Lyapunov stability (group coursework) | Lyapunov derivative verified symbolically |
 | [RendimientoDeportivo](https://github.com/fernandogg2004/RendimientoDeportivo) | Regression, ANOVA and ANCOVA in R with full assumption checking | Home advantage of 0.27–0.42 xG per match |
 
